@@ -18,6 +18,8 @@ public class GraphController {
 		surveyMap.put("Python", 20);
 		surveyMap.put(".Net", 15);
 		model.addAttribute("surveyMap", surveyMap);
+		model.addAttribute("pass", 50);
+		model.addAttribute("fail", 50);
 		return "barGraph";
 	}
 
